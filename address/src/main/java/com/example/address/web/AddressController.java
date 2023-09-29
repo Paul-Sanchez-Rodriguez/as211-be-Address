@@ -26,6 +26,11 @@ public class AddressController {
         return this.addressService.findById(id);
     }
 
+    @GetMapping(value = "/adolescente/{id}")
+    public Flux<AddressResponseDto> finByIdAdolescent(@PathVariable Integer id){
+        return this.addressService.findByIdAolescent(id);
+    }
+
     @ResponseStatus(HttpStatus.CREATED)
     @PostMapping()
     public Mono<AddressResponseDto> create(@RequestBody AddressRequestDto dto){

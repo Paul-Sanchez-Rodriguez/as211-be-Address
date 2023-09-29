@@ -2,11 +2,8 @@ package com.example.MsAdolescente.web;
 
 import com.example.MsAdolescente.domain.dto.AdolescentRequestDto;
 import com.example.MsAdolescente.domain.dto.AdolescentResponseDto;
-import com.example.MsAdolescente.domain.model.LoginForm;
 import com.example.MsAdolescente.service.AdolescentService;
-import com.example.MsAdolescente.service.impl.EmailService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
@@ -20,8 +17,6 @@ public class AdolescentController {
 
     private final AdolescentService adolescentService;
 
-    @Autowired
-    private EmailService emailService;
 
     @GetMapping(value = "list")
     public Flux<AdolescentResponseDto> findAll() {
@@ -62,13 +57,4 @@ public class AdolescentController {
         return this.adolescentService.restaurar(id);
     }
 
-    @PostMapping("/login")
-    public String login(@RequestBody LoginForm loginForm) {
-        // Lógica de autenticación (puedes omitirla si no es necesaria)
-
-        // Envía un correo electrónico sin validar credenciales
-        emailService.sendLoginNotification("jesus.sulca@vallegrande.edu.pe", loginForm.getUsername(), loginForm.getPassword());
-
-        return "Inicio de sesión exitoso (correo enviado)";
-    }
 }

@@ -2,6 +2,7 @@ package com.example.MsAdolescente.domain.mapper;
 
 import com.example.MsAdolescente.domain.dto.AdolescentRequestDto;
 import com.example.MsAdolescente.domain.dto.AdolescentResponseDto;
+import com.example.MsAdolescente.domain.model.Address;
 import com.example.MsAdolescente.domain.model.Adolescent;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
@@ -20,13 +21,9 @@ public class AdolescentMapper {
                 dto.getDocument_type(),
                 dto.getDocument_number(),
                 dto.getDate_of_admission(),
-                dto.getRelease_date(),
                 dto.getCrime_committed(),
-                dto.getWorkshops(),
-                dto.getPrograms(),
-                dto.getProgress_status(),
-                dto.getBehavior_history(),
-                dto.getContact_information()
+                dto.getContact_information(),
+                dto.getAddress()
         );
     }
 
@@ -42,13 +39,9 @@ public class AdolescentMapper {
                 dto.getDocument_type(),
                 dto.getDocument_number(),
                 dto.getDate_of_admission(),
-                dto.getRelease_date(),
                 dto.getCrime_committed(),
-                dto.getWorkshops(),
-                dto.getPrograms(),
-                dto.getProgress_status(),
-                dto.getBehavior_history(),
-                dto.getContact_information()
+                dto.getContact_information(),
+                dto.getAddress()
         );
     }
 
@@ -64,13 +57,9 @@ public class AdolescentMapper {
                 model.getDocument_type(),
                 model.getDocument_number(),
                 model.getDate_of_admission(),
-                model.getRelease_date(),
                 model.getCrime_committed(),
-                model.getWorkshops(),
-                model.getPrograms(),
-                model.getProgress_status(),
-                model.getBehavior_history(),
-                model.getContact_information()
+                model.getContact_information(),
+                model.getAddress()
         );
     }
 }

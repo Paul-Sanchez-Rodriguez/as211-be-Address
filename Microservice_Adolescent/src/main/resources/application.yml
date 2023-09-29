@@ -12,22 +12,6 @@ spring:
             max-size: 1
     application:
         name: adolescent-service
-    mail:
-        host: smtp.gmail.com
-        port: 587
-        username:
-        password: 2!p!vaILP
-        properties:
-            mail:
-                smtp:
-                    auth: true
-                    starttls:
-                        enable: true
-logging:
-    level:
-        org:
-            springframework:
-                r2dbc: DEBUG
 
 
 eureka:

@@ -13,6 +13,7 @@ public interface AddressService {
     Mono<AddressResponseDto> update(AddressRequestDto request, Integer id);
     Mono<Void> delete(Integer id);
 
+    Flux<AddressResponseDto> findByIdAolescent(Integer id);
     Flux<AddressResponseDto> findAllInactive();
 
 }

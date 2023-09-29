@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
@@ -7,6 +8,8 @@
         <option value="$PROJECT_DIR$/gateway-service/pom.xml" />
         <option value="$PROJECT_DIR$/Microservice_Adolescent/pom.xml" />
         <option value="$PROJECT_DIR$/address/pom.xml" />
+        <option value="$PROJECT_DIR$/Ms-Attorney/pom.xml" />
+        <option value="$PROJECT_DIR$/T09-SOA-Attorney-Backend/pom.xml" />
       </list>
     </option>
   </component>

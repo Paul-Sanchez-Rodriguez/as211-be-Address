@@ -74,6 +74,12 @@ public class AddressServiceImpl implements AddressService {
     }
 
     @Override
+    public Flux<AddressResponseDto> findByIdAolescent(Integer id) {
+        return this.addressRepository.findByIdadolescent(id)
+                .map(AddressMapper::toDto);
+    }
+
+    @Override
     public Flux<AddressResponseDto> findAllInactive() {
         return null;
     }
