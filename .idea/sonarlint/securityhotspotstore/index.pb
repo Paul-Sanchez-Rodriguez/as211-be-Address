@@ -53,3 +53,9 @@ q
 Aaddress/src/main/java/com/example/address/AddressApplication.java,b\1\b1b32a129931ba174985cd06bb3964178dfb719d
 ‘
 aMicroservice_Adolescent/src/main/java/com/example/MsAdolescente/web/feign/AddressFeignClient.java,8\a\8a7bc7ea19795ac991b34c4d529bbfa8fcdf9fbb
+{
+Kaddress/src/main/java/com/example/address/repository/AddressRepository.java,5\7\57fcc25493b9371c10a220e4b0c1812ed1146eb4
+~
+Naddress/src/main/java/com/example/address/service/impl/AddressServiceImpl.java,8\1\811451e96ed09157b5762a2dbe1d54b0061485d8
+—
+gMicroservice_Adolescent/src/main/java/com/example/MsAdolescente/service/impl/AdolescentServiceImpl.java,5\f\5f213eb7b04322a42faa0c63bbfffe6c07ef8f77
