@@ -1,0 +1,14 @@
+server:
+  port: 8095
+
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://containers-us-west-182.railway.app:7834/railway
+    username: postgres
+    password: 4vFQdkmTtIq4rHkeycsv
+    pool:
+      enabled: true
+      initial-size: 1
+      max-size: 1
+  application:
+    name: attorney-service

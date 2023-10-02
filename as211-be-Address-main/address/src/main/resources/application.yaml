@@ -1,0 +1,21 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://containers-us-west-145.railway.app:7393/railway
+    username: postgres
+    password: pKyKcWFWpIHODUgyXC03
+  pool:
+      initial-size: 5
+      max-size: 20
+  application:
+    name: address-service
+
+server:
+  port: 8092
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8099/eureka/
+  instance:
+    preferIpAddress: true
+    hostName: 192.168.43.77

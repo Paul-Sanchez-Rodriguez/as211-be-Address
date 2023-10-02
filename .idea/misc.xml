@@ -4,16 +4,15 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/gateway-service/pom.xml" />
-        <option value="$PROJECT_DIR$/Microservice_Adolescent/pom.xml" />
-        <option value="$PROJECT_DIR$/address/pom.xml" />
-        <option value="$PROJECT_DIR$/Ms-Attorney/pom.xml" />
-        <option value="$PROJECT_DIR$/T09-SOA-Attorney-Backend/pom.xml" />
+        <option value="$PROJECT_DIR$/as211-be-Address-main/eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/as211-be-Address-main/address/pom.xml" />
+        <option value="$PROJECT_DIR$/as211-be-Address-main/gateway-service/pom.xml" />
+        <option value="$PROJECT_DIR$/as211-be-Address-main/Microservice_Adolescent/pom.xml" />
+        <option value="$PROJECT_DIR$/as211-be-Address-main/Ms-Attorney/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_20" project-jdk-name="17" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

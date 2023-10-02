@@ -1,0 +1,23 @@
+server:
+    port: 8093
+
+spring:
+    r2dbc:
+        url: r2dbc:postgresql://containers-us-west-59.railway.app:7712/railway
+        username: postgres
+        password: spTqjboGzQgbcnJhuJ54
+        pool:
+            enabled: true
+            initial-size: 1
+            max-size: 1
+    application:
+        name: adolescent-service
+
+
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8099/eureka/
+    instance:
+        preferIpAddress: true
+        hostName: 192.168.43.77
